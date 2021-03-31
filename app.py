@@ -60,6 +60,7 @@ def new_q():
     if request.method == 'POST':
         form = request.form.to_dict()
         del form['csrf_token']
+        print(form)
         for field in form:
             if form[field] == '':
                 flash(f'Please enter a {field} for your question')
