@@ -10,7 +10,7 @@ app = Flask(__name__)
 CSRFProtect(app)
 app.config['SECRET_KEY'] = 'QWEWRTEGFVserwgeefr34t5hrgdvfscefsdvdfrgtfgdrfsedxvdfrgtfvddefdgf'
 
-subjects = {'math': ['AP_Calc_AB', 'AP_Calc_BC', 'AP_Computer_Science_A', 'AP_Statistics', 'Algebra_I', 'Algebra_II', 'Honors_Algebra_II', 'Algebra_III_with_Trigonometry', 'College_Mathematics', 'Financial_Math-Personal_&_Family', 'Foundations_of_Math', 'Geometry', 'Honors_Geometry_&_Trigonometry', 'Integrated_Algebra_II', 'Integrated_Math', 'Trigonometry_&_Pre-Calculus', 'Honors_Trigonometry_&_Pre-Calculus']}
+subjects = {'math': ['AP_Calc_AB', 'AP_Calc_BC', 'AP_Computer_Science_A', 'AP_Statistics', 'Algebra_I', 'Algebra_II', 'Honors_Algebra_II', 'Algebra_III_with_Trigonometry', 'Honors_Calculus_III', 'College_Mathematics', 'Financial_Math-Personal_&_Family', 'Foundations_of_Math', 'Geometry', 'Honors_Geometry_&_Trigonometry', 'Integrated_Algebra_II', 'Integrated_Math', 'Trigonometry_&_Pre-Calculus', 'Honors_Trigonometry_&_Pre-Calculus']}
 q_fields = ['qid','question','work','answer']
 class_dir = 'classes/'
 nl_char = ' ⷣ'
